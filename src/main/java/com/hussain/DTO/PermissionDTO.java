@@ -1,4 +1,4 @@
-package com.hussain;
+package com.hussain.DTO;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
@@ -21,10 +21,10 @@ public class PermissionDTO {
     @NoArgsConstructor
     @JsonIgnoreProperties(ignoreUnknown = true)
     @ToString
-    static class Resource
+    public static class Resource
     {
-        private String resource ;
-        private String permission ;
+        public String resource ;
+        public String permission ;
     }
 
 }

@@ -1,0 +1,373 @@
+[
+  {
+    "role": "TAWAL_ADMIN",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "DENY"
+      }
+    ]
+  } ,
+
+
+  {
+    "role": "COMPANY_MANAGER",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "DENY"
+      }
+    ]
+  },
+
+
+
+  {
+    "role": "OPERATION_READER",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "WRITE"
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "role": "OPERATION_CONTRIBUTER",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "WRITE"
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "role": "OPERATION_MANAGER",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "WRITE"
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "role": "OPERATION_PROJECT_MANAGERS",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "WRITE"
+      }
+    ]
+  } ,
+
+
+
+
+  {
+    "role": "OPERATION_RFI_APPROVER",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "DENY"
+      }
+    ]
+  } ,
+
+
+
+  {
+    "role": "BILLING_READER",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "DENY"
+      }
+    ]
+  },
+
+  {
+    "role": "BILLING_CONTRIBUTOR",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "DENY"
+      }
+    ]
+  },
+
+
+
+  {
+    "role": "BILLING_MANAGER",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "DENY"
+      }
+    ]
+  },
+
+
+
+
+  {
+    "role": "COMMERCIAL_READER",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "DENY"
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "role": "COMMERCIAL_CONTRIBUTOR",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "DENY"
+      }
+    ]
+  },
+
+  {
+    "role": "COMMERCIAL_MANAGER",
+    "resources": [
+      {
+        "resource": "notification:incident",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:billing",
+        "permission": "DENY"
+      },
+      {
+        "resource": "notification:userManagement",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notification:order",
+        "permission": "WRITE"
+      },
+      {
+        "resource": "notifcation:changeManagement",
+        "permission": "DENY"
+      }
+    ]
+  }
+
+
+
+
+
+]
